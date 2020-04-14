@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+<body>
+    {% block contents %} 
+
+    <h1>This is me. Seungjo</h1>
+    <h2>
+        <img src="seungjo.jpg">
+        <ul>
+            <li>I'm Seungjo... Already 24....:(</li>
+            <li>I want to be a colorful person</li>
+            <li>Love to go places I didn't have been b4</li>
+            <li>I have interests about traveling, learning, sports and etc.. so many things I wanna do</li>
+            <li>I hope to live like a YOLO life</li>
+        </ul>
+    </h2>
+    <h5><a href="{% url 'project' %}">Back to home</a></h5>
+
+    {% endblock %}
+</body>

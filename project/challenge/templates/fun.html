@@ -1,0 +1,25 @@
+{% extends 'base.html' %} 
+
+<body>
+    {% block contents %} 
+
+    <h1>Fun Things in my life</h1>
+    <h2>
+        <ul>
+            <li>The reason why I'm traveling is to experience new things</li>
+        </ul>
+
+        <ul>
+            <li>This is where I visited</li>
+        </ul>
+
+        <ul type = "disc">
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </h2>
+    <h5><a href="{% url 'challenge' %}">Back to challenge</a></h5>
+
+    {% endblock %}
+</body>

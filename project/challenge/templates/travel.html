@@ -1,0 +1,27 @@
+{% extends 'base.html' %} 
+
+<body>
+    {% block contents %} 
+
+    <h1>Traveling</h1>
+    <h2>
+        <ul>
+            The reason why I'm traveling is to experience new things
+        </ul>
+    </h2>
+    <h3>
+        <ol type = "1">
+            <li>Like Meeting New people</li>
+            <li>Expericening New things so that I can challenge myself</li>
+            <li>Feeling that I'm free and alive</li>
+        </ol>
+
+        <ul>
+            <li>This is where I visited</li>
+        </ul>
+        
+    </h3>
+    <h5><a href="{% url 'challenge' %}">Back to challenge</a></h5>
+
+    {% endblock %}
+</body>
